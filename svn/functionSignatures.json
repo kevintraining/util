@@ -1,0 +1,23 @@
+{
+"svn":
+{
+  "inputs":
+  [
+    {"name":"filename", "kind":"required", "type":[["filepath"], ["folderpath"], "char", ["choices={'--force', '--no-ignore', '--depth=immediates', '--stop-on-copy', '\"Initial commit.\"', '\"Tmp commit.\"'}"]], "multiplicity":"append"}
+  ]
+},
+"svnlog":
+{
+  "inputs":
+  [
+    {"name":"filename", "kind":"required", "type":[["filepath"], ["folderpath"], "char"], "multiplicity":"append"}
+  ]
+},
+"svnversion":
+{
+  "inputs":
+  [
+    {"name":"filename", "kind":"required", "type":[["filepath"], ["folderpath"], "char"], "multiplicity":"append"}
+  ]
+}
+}
